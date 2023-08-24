@@ -75,6 +75,11 @@ button:hover {
 }
 
 .skillsGrid {
+  display: flex;
+
+}
+
+/* .skillsGrid {
   display: grid;
   margin-left: 40px;
   margin-right: 40px;
@@ -82,7 +87,7 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
   " skill1 skill2 skill3 skill4 skill5";
-}
+} */
 
 .skill1, .skill2, .skill3, .skill4, .skill5 {
   display: flex;
@@ -202,6 +207,11 @@ footer div a:hover {
   
   .skill1, .skill2, .skill3, .skill4, .skill5 {
     min-height: 10vh;
+  }
+
+  .caseStudy1 img, .caseStudy2 img, .caseStudy3 img {
+    visibility: hidden;
+    margin:auto;
   }
 
   .workGrid {
