@@ -32,7 +32,7 @@ button {
 
 button:hover {
   transition: box-shadow .3s;
-  box-shadow: 0 0 1px rgba(33,33,33,.5);  
+  box-shadow: 0 0 3px rgba(33,33,33,.5);  
 }
 
 /* Navigation Bar */
